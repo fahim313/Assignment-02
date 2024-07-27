@@ -127,3 +127,25 @@ margin-top: 25px;
   left:250px;
   top:45px;
  }
+ /* --------feature property----- */
+ .feature-item1 {
+  background-color: #272727;
+ color: white;
+position: absolute;
+padding: 1rem ;
+width: 190px;
+height: 105px;
+left: 1200px;
+top: 260px;
+border-radius:10px;
+ }
+
+.feature-item1 p {
+  font-size: 2.5rem;
+  margin-top: 0.2rem;
+}
+
+.feature-item1 span {
+  font-size: 0.875rem;
+  
+}
