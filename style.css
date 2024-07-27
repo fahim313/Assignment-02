@@ -1,20 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 body{
 
   font-family: "Inter", sans-serif;
 }
-
+ 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 .header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     border: 2px solid red;
     width: 1509px;
     height: 730px;
+    background-color: #121212;
 
 }
 
@@ -61,4 +62,58 @@ color: rgb(230, 83, 60);
    padding: 0.6rem 1em;
    
 }
+/* ---------herro section-------- */
+.herro{
+     
+    border: 2px solid green;
+    margin: 0 auto;
+    width: 1100px;
+    height: 581px;
+    display: flex;
+    margin-top: 11px;
+  }
+ .text{
+  width: 50%;
+  border:2px solid red;
+ }
+  .text h1{
+    font-size:55px;
+    /* font-weight: 900; */
+    margin-top: 2rem;
+    color: rgb(255, 255, 255);
+  }
+ .text h1 span{
+        
+  font-family: "Great Vibes", cursive;
+  font-size:4.5rem;
+   font-weight:normal;
+ }
+ .text p{
+color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0.5px;
+ }
+ .button{
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+ 
+ }
+.button .btn{
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 200px;
+  
+}
+.button .first{
+  background-color: #FF5722;
+  color: #fff;
+}
+.button .second{
+  background-color:#101010;
+  color:#fff;
+  border: 1px solid white;
 
+}
