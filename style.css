@@ -13,7 +13,7 @@ body{
 .header{
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     border: 2px solid red;
-    width: 1509px;
+    width: 1539px;
     height: 730px;
     background-color: #121212;
 
@@ -63,7 +63,7 @@ color: rgb(230, 83, 60);
    
 }
 /* ---------herro section-------- */
-/* .herro{
+ .herro{
      
     border: 2px solid green;
     margin: 0 auto;
@@ -78,8 +78,8 @@ color: rgb(230, 83, 60);
  }
   .text h1{
     font-size:55px;
-    /* font-weight: 900; */
-    /* margin-top: 6rem;
+     font-weight: 900; 
+     margin-top: 6rem;
     color: rgb(255, 255, 255);
   }
  .text h1 span{
@@ -117,18 +117,18 @@ margin-top: 25px;
   color:#fff;
   border: 1px solid white;
 
-} */
+} 
  /* ----- image----- */
  
- /* .image img{
+  .image img{
   position: relative; 
   width:300px;
   height:530px;
   left:250px;
   top:45px;
- } */
+ } 
  /* --------feature property----- */
- /* .feature-item1 {
+  .feature-item1 {
   background-color: #272727;
  color: white;
 position: absolute;
@@ -183,7 +183,7 @@ align-items: center;
 .feature-item2 span {
   font-size: 0.875rem;
   
-} */
+} 
 .nav-hamburger-manu{
   color: white;
    display: none;
