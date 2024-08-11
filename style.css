@@ -184,3 +184,7 @@ align-items: center;
   font-size: 0.875rem;
   
 }
+.nav-hamburger-manu{
+  color: white;
+   display: none;
+}
