@@ -121,4 +121,31 @@
          padding: 2px;
          margin-top: 4px;
         }
+
+          /* =========change Habit section========== */
+          
+            .changes {
+              width: 100%;
+              height: auto;
+            }
+          
+            .cng-text {
+              width: 100%;
+              height: auto;
+               margin-top: 20px;
+            }
+          
+            .title {
+              font-size:x-large;
+            }
+           .abouts{
+            position: static;
+            text-align: center;
+            font-size:20px;
+           font-weight: 400;
+            line-height:40px;
+            letter-spacing:1px;
+           }
+
+          
     }
