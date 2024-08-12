@@ -146,6 +146,33 @@
             line-height:40px;
             letter-spacing:1px;
            }
+            /* ========= Responsive Images=======
+           */
+           .conteinar {
+            grid-template-columns: repeat(1, 1fr); 
+            gap: 20px;
+          }
+        
+          .round {
+            padding: 20px; 
+          }
+        
+          .round-img {
+            width: 70%; 
+          }
+        
+          .round h2 {
+            font-size: larger; 
+            margin-left: 140px;
+          }
+        
+          .round p {
+           font-size:medium;
+           width: 250px;
+          height:90px;
+          line-height: 20px;
+          letter-spacing: 0.3px;
+          margin-left: 50px;
+          }
 
-          
     }
