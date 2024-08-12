@@ -11,7 +11,7 @@ body{
     box-sizing: border-box;
 }
 body{
-  background-color: black;
+   background-color: black; 
 }
 .header{
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
@@ -199,7 +199,7 @@ svg{
   .changes{
     border: 2px solid red;
     width: 1200px;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
   }
   .cng-text{
@@ -220,3 +220,25 @@ svg{
     font-size:x-large;
     text-align: center;
   }
+ .conteinar{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-top: 30px;
+ }
+ .round-img{
+  width: 70%;
+  height: auto;
+  border-radius: 50%;
+ }
+ .round h2{
+ margin-left:80px;
+  color: #fff;
+  margin-top: 20px;
+  font-size: medium;
+ }
+ .round p{
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 15px;
+  text-align: center;
+ }
