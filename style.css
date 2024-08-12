@@ -10,6 +10,9 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+body{
+  background-color: black;
+}
 .header{
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     border: 2px solid red;
@@ -191,3 +194,29 @@ align-items: center;
 svg{
   display: none;
 }
+  
+  /* ========Changes part======== */
+  .changes{
+    border: 2px solid red;
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  .cng-text{
+    border: 2px solid red;
+    width: 700px;
+    height:120px;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .abouts{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+  }
+  
+  .title{
+    color: #fff;
+    font-size:x-large;
+    text-align: center;
+  }
