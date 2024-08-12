@@ -84,6 +84,41 @@
         position: static; 
         margin: 0 auto;
       }
-
-
+          
+      
+       .feature-item1{
+        
+       position: absolute;
+       width: 170.91px;
+       height: 100.09px;
+        left: 300.2px;
+          top: 90.6px;
+       }
+         .feature-item2{
+          position: absolute;
+         width: 190.74px;
+         height: 90.58px;
+         left: 32px;
+         top: 400.38px;
+         }
+      .feature-item1 p, .feature-item2 p {
+        font-size:bold; 
+      }
+    
+      .feature-item1 span, .feature-item2 span {
+        font-size:14px; 
+      }
+    
+      .circle {
+        width: 35px; 
+        height: 35px;
+        margin-right: 10px;
+        margin-top: 3px;
+      }
+        svg{
+          display: block;
+          margin-left: 5px;
+         padding: 2px;
+         margin-top: 4px;
+        }
     }

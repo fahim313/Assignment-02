@@ -188,3 +188,6 @@ align-items: center;
   color: white;
    display: none;
 } 
+svg{
+  display: none;
+}
