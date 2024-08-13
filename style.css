@@ -245,7 +245,7 @@ svg{
   margin-top: 15px;
   text-align: center;
  }
-    /* ==========Here is the rub extra way========== */
+    /* ==========Here is the run extra way========== */
     .box-conteinar{
        /* border: 2px solid blue;  */
        width: 1200px;
@@ -260,4 +260,12 @@ svg{
       width: 55%;
       height:100%;
       border: 2px solid red;
+    }
+    .title-text{
+      margin-top: 40px;
+      margin-left:50px;
+      font-size: 30px;
+     font-weight: 400px;
+     color: rgb(255, 255, 255);
+
     }
