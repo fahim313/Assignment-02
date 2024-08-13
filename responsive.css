@@ -232,6 +232,15 @@
           width: 100%;
           height: auto;
       }
-
-
+        /* ===========Responsive BMI section============== */
+         .bmi{
+          width:80%;
+          height: auto;
+         }
+         .bmi-text{
+          position: static;
+          width: 353px;
+          height: 72px;
+          line-height: 24px;
+         }
     }
