@@ -320,3 +320,22 @@ svg{
       width: 1310px; 
       height: auto;
   }
+ /* ==========Bmi section ========= */
+ .bmi{
+   border: 2px solid red; 
+  width:700px;
+   height: 150px;
+   margin: 0 auto;
+   margin-top: 70px;
+ }
+ .bmi-title{
+  color:#fff;
+  font-size: x-large;
+  margin-top: 30px;
+  text-align: center;
+ }
+ .bmi-text{
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 20px;
+  text-align: center;
+ }
