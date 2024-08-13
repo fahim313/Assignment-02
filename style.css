@@ -255,6 +255,7 @@ svg{
        background-color:#1E1E1E;
        box-shadow:0 8px 16px rgba(0, 0, 0, 0.1);
        border-radius: 20px; 
+       display: flex;
     }
     .left-side-box{
       width: 55%;
@@ -267,5 +268,31 @@ svg{
       font-size: 30px;
      font-weight: 400px;
      color: rgb(255, 255, 255);
+
+    }
+    .run-text{
+      color: rgba(255, 255, 255, 0.5);
+     font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+   letter-spacing: 0.3px;
+   text-align: left;
+   margin: 40px 45px;
+    }
+    .join-btn a{
+       text-decoration: none;
+       padding: 10px 30px;
+       background: rgb(230, 83, 60); 
+       border-radius: 200px;
+       margin-left:45px;
+       color: #fff;
+       font-size: large;
+    }
+    .right-side-box{
+      width:370px;
+      height:350px;
+      border: 2px solid green;
+      margin: 0 auto;
+      margin-top: 25px;
 
     }
