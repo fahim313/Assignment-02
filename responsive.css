@@ -1,7 +1,6 @@
 @media screen and (max-width:576px) {
     
    .navbar{
-    border:2px solid red;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -9,13 +8,14 @@
    }
      .header {
         width: 100%;
-        height: auto;
-        padding: 10px;
+        height: auto; 
+        /* padding: 10px; */
         border: none; 
     } 
      .head h3{
         font-size: 36px;
         margin-left: 0;
+        margin-top:0;
      }
     .nav-links{
         display:none;
@@ -25,7 +25,8 @@
         padding:10px;
        margin-right: 10px;
         display: block;
-        cursor:pointer; 
+        cursor:pointer;
+        margin-top:42px; 
     }
       /* -------------responsive text and button properties-------- */
       .herro {
@@ -74,8 +75,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-         padding:5px; 
+         /* padding:5px;  */
          position: relative;
+         
       }
     
       .image img {
@@ -83,6 +85,7 @@
         height: auto;
         position: static; 
         margin: 0 auto;
+        
       }
           
       
@@ -177,5 +180,58 @@
           letter-spacing: 0.3px;
           margin-left: 120px;
           }
+          /* ======= Run and Extra Mile======= */
+          .box-conteinar {
+            width: 80%;
+            height: auto;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+    
+        .left-side-box {
+            width: 100%;
+            height: auto;
+            padding: 20px;
+        }
+    
+        .title-text {
+            margin-left: 0;
+            font-size: 24px;
+            text-align: center;
+        }
+    
+        .run-text {
+            margin: 20px 0;
+            font-size: 16px;
+            text-align: center;
+        }
+    
+        .join-btn {
+          text-align: center;
+          margin: 20px 0px;
+        }
+    
+        .right-side-box {
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        
+  
+      .image-container {
+          width: 80%;
+          height: auto;
+          margin-left: 42px;
+          margin-bottom: 42px;
+      }
+  
+      .run {
+          position: relative;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: auto;
+      }
+
 
     }
