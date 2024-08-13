@@ -14,11 +14,10 @@ body{
    background-color: black; 
 }
 .header{
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-    border: 2px solid red;
+  /* border: 2px solid red; */
     width: 1539px;
-    height: 730px;
-    background-color: #121212;
+    height: 755px;
+    background-color:rgba(255, 255, 255, 0.1);
 
 }
 
@@ -28,13 +27,14 @@ body{
   justify-content: space-between;
   align-items: center;
   gap: 1rem; 
-  margin-top: 80px;
+  /* margin-top: 0px; */
 }
 .nav-links{
     display:flex;
     justify-content: space-between;
     align-items: center;
     gap:2rem;
+    margin-top: 60px;
     margin-right: 200px;
     font-size: 20px;
     font-weight: 400;
@@ -57,6 +57,7 @@ line-height: 120%;
 letter-spacing: 0%;
 text-align: left;
 margin-left: 100px;
+margin-top: 57px;
 color: rgb(230, 83, 60);
 }
 .nav-links a.rounded{
@@ -68,7 +69,7 @@ color: rgb(230, 83, 60);
 /* ---------herro section-------- */
  .herro{
      
-    border: 2px solid green;
+   border-radius:30px;
     margin: 0 auto;
     width: 1100px;
     height: 581px;
@@ -77,7 +78,7 @@ color: rgb(230, 83, 60);
   }
  .text{
   width: 50%;
-  border:2px solid red;
+  /* border:2px solid red;  */
  }
   .text h1{
     font-size:55px;
@@ -139,7 +140,7 @@ padding: 1rem ;
 width: 190px;
 height: 105px;
 left: 1200px;
-top: 260px;
+top: 300px;
 border-radius:10px;
  }
 
@@ -197,13 +198,13 @@ svg{
   
   /* ========Changes part======== */
   .changes{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 1200px;
     height: 500px;
     margin: 0 auto;
   }
   .cng-text{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 700px;
     height:120px;
     margin: 0 auto;
@@ -247,7 +248,7 @@ svg{
  }
     /* ==========Here is the run extra way========== */
     .box-conteinar{
-       /* border: 2px solid blue;  */
+       
        width: 1200px;
        height: 400px;
        margin: 0 auto;
@@ -260,7 +261,7 @@ svg{
     .left-side-box{
       width: 55%;
       height:100%;
-      border: 2px solid red;
+      /* border: 2px solid red; */
     }
     .title-text{
       margin-top: 40px;
@@ -289,10 +290,33 @@ svg{
        font-size: large;
     }
     .right-side-box{
-      width:370px;
+      width:450px;
       height:350px;
-      border: 2px solid green;
       margin: 0 auto;
-      margin-top: 25px;
+      margin-top:25px;
 
     }
+    .right-side-box{
+      width:450px;
+      height:350px;
+      margin: 0 auto;
+      margin-top: 25px;
+      position: relative;
+    
+    }
+
+    .image-container {
+      width: 450px; 
+      height: 350px; 
+      overflow: hidden; 
+      position: relative;
+      border-radius: 10px;
+  }
+  
+  .run {
+      position: absolute;
+      top: -160px; 
+      left: -600px;
+      width: 1310px; 
+      height: auto;
+  }
