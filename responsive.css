@@ -151,6 +151,7 @@
            .conteinar {
             grid-template-columns: repeat(1, 1fr); 
             gap: 20px;
+            text-align: center;
           }
         
           .round {
@@ -159,11 +160,13 @@
         
           .round-img {
             width: 70%; 
+            text-align: center;
+          
           }
         
           .round h2 {
             font-size: larger; 
-            margin-left: 140px;
+            margin-left: 8px;
           }
         
           .round p {
@@ -172,7 +175,7 @@
           height:90px;
           line-height: 20px;
           letter-spacing: 0.3px;
-          margin-left: 50px;
+          margin-left: 120px;
           }
 
     }
