@@ -344,8 +344,8 @@
               height:85%;
               display: grid;
               grid-template-columns: repeat(1,1fr);
-              justify-content: center;
               align-items: center;
+              
              }
              .trainer-card img {
               width: 90%;
@@ -367,6 +367,30 @@
               color:whitesmoke;
               margin-top:0px;
             text-align: left;
-            
             }
+             /* ===== responsive footer section====== */
+             .footer-section{
+              width:100%;
+              height: 120%;
+              display: grid;
+              grid-template-columns: repeat(1,1fr);
+              text-align: center;
+             
+             }
+              
+            .ending h1{
+              top: 0px;
+              font-size: 70px;
+              font-weight: 800;
+              text-align: center;
+             }
+             .paragraph{
+              width: 100%;
+              margin-left: 0;
+             }
+               .footer-bottom{
+                width: 80%;
+                margin-left:50px;
+               }
+
       }
