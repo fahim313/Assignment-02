@@ -338,4 +338,34 @@
            height: 72px;
            line-height: 24px;
            }
+             /* =====Resonsive Trainer image section==== */
+             .trainer-conteinar{
+              width:90%;
+              height:100%;
+              display: grid;
+              grid-template-columns: repeat(1,1fr);
+              justify-content: center;
+             }
+             .trainer-card img {
+              width: 89%;
+              height: 89%;
+              border-radius: 8px;
+            }
+            .trainer-info{
+              position: absolute;
+              margin-top:0px;
+              left:2px;
+            }
+            .trainer-card h2 { 
+              font-size: x-large;
+              color:white; 
+              
+            }
+            .trainer-card p {
+              font-size: 14px; 
+              color:whitesmoke;
+              margin-top:0px;
+            text-align: left;
+            
+            }
       }
