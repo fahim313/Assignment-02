@@ -562,3 +562,18 @@ text-align: left;
  line-height: 250%;
 letter-spacing: 0%;
  }
+.hr-box{
+  border: 2px solid red;
+   width: 700px;
+   height: 100px;
+   margin-left: 10px;
+}
+.footer-bottom {
+  border-top: 2px solid #3c3c3c;
+  padding-top: 15px;
+  font-size: 18px;
+  color: #999;
+  text-align: center;
+  margin-left: 150px;
+  width: 200%;
+}
