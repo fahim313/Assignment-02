@@ -516,4 +516,49 @@ input,select {
 text-align: left;
 
 }
-
+  /* ======Footer section styles Here==========
+ */
+ .footer-section{
+  /* border: 2px solid blue; */
+  width:1519px;
+  height:450px;
+  margin-top: 80px;
+  background-color:#191919;
+  box-shadow:8px 16px 8px 16px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: center;
+  
+ }
+  .div-one,.div-two,.div-three{
+    margin-top: 40px ;
+    text-align: center;
+  }
+ .ending{
+  font-size: xx-large;
+  color: #FF5722;
+ }
+ .paragraph{
+  position: static;
+  width: 443px;
+  height: 72px;
+  margin-left: 165px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+  letter-spacing: 0.3px;
+ }
+ .get-head{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+ }
+ .Help-center{
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 50px;
+  font-size: 18px;
+ font-weight: 300;
+ line-height: 250%;
+letter-spacing: 0%;
+ }
