@@ -443,3 +443,21 @@ input,select {
   font-size: medium;
   
 }
+.meet-team{
+  border: 2px solid red;
+  width:700px;
+   height: 150px;
+   margin: 0 auto;
+   margin-top: 70px;
+}
+.meet-title{
+  color: #fff;
+  font-size: x-large;
+  text-align: center;
+  margin-top: 5px;
+}
+.meet-text{
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-top: 10px;
+}
