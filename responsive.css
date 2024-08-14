@@ -341,14 +341,15 @@
              /* =====Resonsive Trainer image section==== */
              .trainer-conteinar{
               width:90%;
-              height:100%;
+              height:85%;
               display: grid;
               grid-template-columns: repeat(1,1fr);
               justify-content: center;
+              align-items: center;
              }
              .trainer-card img {
-              width: 89%;
-              height: 89%;
+              width: 90%;
+              height: 95%;
               border-radius: 8px;
             }
             .trainer-info{
